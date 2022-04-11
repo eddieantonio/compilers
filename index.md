@@ -1,7 +1,8 @@
 # Resources for learning more about compilers
 
 Here we have a few more resources about learning how compilers work and
-what happens to code _after_ the compiler runs — that is, how does a CPU actually _execute_ machine code?
+what happens to code _after_ the compiler runs — that is, how does a CPU
+_actually_ run machine code?
 
 
 # How machine code works
@@ -13,7 +14,8 @@ Guy][8bit], has a good primer for the [6502]:
 
 [8bit]: https://www.the8bitguy.com/
 
-For a more in-depth treatment, I recommend Ben Eater's videos. They are excellent, go into a technical detail yet remain relatively accessible.
+For a more in-depth treatment, I recommend Ben Eater's videos. They are
+excellent, go into lots of technical detail yet remain relatively accessible.
 
 Here are a couple of videos that compare C code to 6502 machine code,
 and show how a CPU actually interprets machine code.
@@ -24,7 +26,6 @@ and show how a CPU actually interprets machine code.
 
 [6502]: https://en.wikipedia.org/wiki/MOS_Technology_6502
 
-<aside>
 Why do all these videos focus on the 6502? It's a processor that was
 used in classic computers like the Apple II, the Commodore 64, the
 Nintendo Entertainment System (NES), and many others. Relatively
@@ -33,7 +34,6 @@ simulated in your browser, wire-for-wire, transistor for transistor at
 [Visual 6502][V6502]. With just over 3,510 transistors, it is feasible
 to understand what each part of the processor does in detail; compare
 that to today's processors with billions of transistors!
-</aside>
 
 [V6502]: http://www.visual6502.org/JSSim/
 
@@ -42,6 +42,7 @@ built up to implement logic, I recommend the series Crash Course
 Computer Science:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gI-qXk7XojA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 # More about compilers
 
